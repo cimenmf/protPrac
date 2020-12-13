@@ -4,7 +4,7 @@ exports.config = {
 		//but we do provide here, we have to start the server on command line
 		//before running the tests
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['Alerts.js'],
+  specs: ['Homework.js'],
   onPrepare : function() {browser.manage().window().maximize();},
   
   jasmineNodeOpts: {
